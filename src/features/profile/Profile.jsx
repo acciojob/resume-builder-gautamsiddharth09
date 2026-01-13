@@ -27,8 +27,9 @@ export default function Profile() {
         <input name="phone" value={form.phone} onChange={onChange} />
       </div>
       <div className="form-group">
-        <label>Address</label>
-        <input name="address" value={form.address} onChange={onChange} />
+      
+
+        <textarea name="address" value={form.address } id="" onChange={onChange}>Address</textarea>
       </div>
       <div className="form-group">
         <label>Image URL</label>
