@@ -12,7 +12,8 @@ export default function Profile() {
 
   return (
     <div>
-      <h2>Profile</h2>
+      <h2>RESUME GENERATOR</h2>
+      <h3>Add your profile detail</h3>
       <div className="form-group">
         <label>First Name</label>
         <input name="fname" value={form.fname} onChange={onChange} />

@@ -25,7 +25,9 @@ export default function Education() {
 
   return (
     <div>
-      <h2>Education</h2>
+      
+      <h1>RESUME GENERATOR</h1>
+      <h3>Add your Education Details</h3>
       <div className="form-group">
         <label>Course</label>
         <input name="courseName" value={form.courseName} onChange={onChange} />

@@ -19,7 +19,9 @@ export default function Projects() {
 
   return (
     <div>
-      <h2>Projects</h2>
+       
+      <h1>RESUME GENERATOR</h1>
+      <h3>Add your Mini Projects</h3>
       <div className="form-group">
         <label>Project Name</label>
         <input

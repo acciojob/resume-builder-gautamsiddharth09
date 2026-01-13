@@ -18,7 +18,9 @@ const Profile = ({ profile, updateProfile }) => {
   };
 
   return (
+
     <div className="profile-section">
+      
       <h2>Profile Information</h2>
       <form onSubmit={handleSubmit}>
         <div>
